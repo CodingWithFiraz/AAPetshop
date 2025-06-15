@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk - AA Petshop</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+   <!-- Top Bar -->
+    <div class="bg-yellow-400 text-black text-xs py-1 px-4 w-full">
+ 
+                <marquee>Kami Buka Setiap Hari Senin-Sabtu: 07.30-20.30 | Minggu: 07.30-18.00 | Sabtu Spesial Hari Minggu Tutup Pukul 21.00!</marquee>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <a href="index.html" class="text-xl font-bold text-gray-800">AA PETSHOP</a>
+            <div class="flex space-x-6">
+                <a href="index.html" class="text-gray-600 hover:text-gray-900 font-semibold">Beranda</a>
+                <a href="products.html" class="text-gray-600 hover:text-gray-900 font-semibold">Produk</a>
+                <a href="../TIC TACXEL/game.html" class="text-gray-600 hover:text-gray-900 font-semibold">Games</a>
+                <a href="about-us.html" class="text-gray-600 hover:text-gray-900 font-semibold">Kontak</a>
+            </div>
+            <div class="relative">
+                <!-- Shopping Cart Icon - Placeholder -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                </svg>
+                <span class="absolute -top-1 -right-1 bg-red-500 text-white rounded-full text-xs w-4 h-4 flex items-center justify-center">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Makanan Header Section -->
+    <section class="bg-green-700 py-20 px-4 relative overflow-hidden">
+        <div class="container mx-auto text-left relative z-10">
+            <h1 class="text-5xl font-bold text-white leading-tight">Makanan</h1>
+        </div>
+        <!-- Background elements (cat paws) -->
+        <img src="asset/image/paws.png" alt="Cat Paw Grey" class="absolute -bottom-10 right-1/4 w-64 transform rotate-12">
+  
+    </section>
+
+    <!-- Product Grid Section -->
+    <section class="py-20 bg-orange-50">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                <!-- Product 1 -->
+                <div class="flex flex-col items-center text-center">
+                    <img src="asset/image/minino.png" alt="DRY FOOD MININO PLUS KITTEN 1.5 KG" class="w-40 h-40 object-contain mb-4">
+                    <h3 class="font-semibold text-lg text-gray-800">DRY FOOD MININO PLUS KITTEN 1.5 KG</h3>
+                    <p class="text-gray-600">Rp.25.000</p>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="flex flex-col items-center text-center">
+                    <img src="asset/image/bolt.png" alt="BOLT CAT KITTEN SALMON 1KG FRESHPACK" class="w-40 h-40 object-contain mb-4">
+                    <h3 class="font-semibold text-lg text-gray-800">BOLT CAT KITTEN SALMON 1KG FRESHPACK</h3>
+                    <p class="text-gray-600">Rp.25.000</p>
+                </div>
+
+                <!-- Product 3 -->
+                <div class=" flex flex-col items-center text-center">
+                    <img src="asset/image/kitchen.png" alt="Cat Painting" class="w-40 h-40 object-contain mb-4">
+                    <h3 class="font-semibold text-lg text-gray-800">Kitchen Flavor Baby Cat & Kitten 1.5 Kg</h3>
+                    <p class="text-gray-600">Rp120.000</p>
+                </div>
+
+                <!-- Product 4 -->
+                <div class=" flex flex-col items-center text-center">
+                    <img src="asset/image/kenie.png" alt="KENIE KITTEN 1.2KG FRESHPACK" class="w-40 h-40 object-contain mb-4">
+                    <h3 class="font-semibold text-lg text-gray-800">KENIE KITTEN 1.2KG FRESHPACK</h3>
+                    <p class="text-gray-600">Rp.50.452</p>
+                </div>
+
+                <!-- Product 5 -->
+                <div class=" flex flex-col items-center text-center">
+                    <img src="asset/image/topper.png" alt="TOPPET MAKANAN KUCING DRY FOOD KEMASAN" class="w-40 h-40 object-contain mb-4">
+                    <h3 class="font-semibold text-lg text-gray-800">TOPPET MAKANAN KUCING DRY FOOD KEMASAN</h3>
+                    <p class="text-gray-600">Rp.9.300</p>
+                </div>
+
+                <!-- Product 6 -->
+                <div class=" flex flex-col items-center text-center">
+                    <img src="asset/image/cleo.png" alt="Cat Painting 2" class="w-40 h-40 object-contain mb-4">
+                    <h3 class="font-semibold text-lg text-gray-800">Cat Food Cleo Seafood Adult 1.2kg </h3>
+                    <p class="text-gray-600">Rp 55.000</p>
+                </div>
+
+                <!-- Product 7 -->
+                <div class=" flex flex-col items-center text-center">
+                    <img src="asset/image/kitekat.png" alt="KITEKAT KITTEN 370G DRY CAT" class="w-40 h-40 object-contain mb-4">
+                    <h3 class="font-semibold text-lg text-gray-800">KITEKAT KITTEN 370G DRY CAT</h3>
+                    <p class="text-gray-600">Rp.26.600</p>
+                </div>
+
+                <!-- Product 8 -->
+                <div class=" flex flex-col items-center text-center">
+                    <img src="asset/image/friskies.png" alt="CAT FOOD CLEO SEAFOOD ADULT 1.2KG" class="w-40 h-40 object-contain mb-4">
+                    <h3 class="font-semibold text-lg text-gray-800">Friskies Seafood Sensations </h3>
+                    <p class="text-gray-600">Rp.25.952</p>
+                </div>
+
+                <!-- Product 9 -->
+                <div class=" flex flex-col items-center text-center">
+                    <img src="asset/image/proplan.png" alt="PRO PLAN LARGE ADULT BREED CHICKEN 15 KG" class="w-40 h-40 object-contain mb-4">
+                    <h3 class="font-semibold text-lg text-gray-800">PRO PLAN LARGE ADULT BREED CHICKEN 15 KG</h3>
+                    <p class="text-gray-600">Rp.140.000</p>
+                </div>
+
+                <!-- Product 10 -->
+                <div class=" flex flex-col items-center text-center">
+                    <img src="asset/image/Removal-507.png" alt="PRODIET OCEAN FISH DRY CAT FOOD 1.5KG" class="w-40 h-40 object-contain mb-4">
+                    <h3 class="font-semibold text-lg text-gray-800">PRODIET OCEAN FISH DRY CAT FOOD 1.5KG</h3>
+                    <p class="text-gray-600">Rp.120.000</p>
+                </div>
+
+                <!-- Product 11 -->
+                <div class=" flex flex-col items-center text-center">
+                    <img src="asset/image/purina.png" alt="KITCHEN FLAVOR BABY CAT & KITTEN 1.5 KG" class="w-40 h-40 object-contain mb-4">
+                    <h3 class="font-semibold text-lg text-gray-800">PROPLAN CAT KITTEN CHICKEN & RICE 3,5 KG</h3>
+                    <p class="text-gray-600">Rp.484.619</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Three Column CTA Section -->
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-0">
+        <!-- Column 1 -->
+        <div class="bg-pink-300 p-12 flex flex-col justify-between items-start">
+            <h3 class="text-3xl font-bold text-gray-800 mb-4">Bermain Lebih Ceria,<br>Hewan Lebih Bahagia!</h3>
+            <p class="text-gray-700 mb-6">Koleksi Mainan Interaktif Untuk Anabul Kesayangan Anda</p>
+            <img src="asset/Article-Pic_-cat-playing--1-.png" alt="Toys" class="w-full h-auto object-cover">
+        </div>
+
+        <!-- Column 2 -->
+        <div class="bg-green-600 p-12 flex flex-col justify-between items-start">
+            <h3 class="text-3xl font-bold text-white mb-4">Nutrisi Seimbang, Hidup Lebih Cerah</h3>
+            <p class="text-white mb-6">Mulai Dari Anak Kucing Hingga Anjing Dewasa, Semua Ada Di Sini</p>
+            <img src="asset/af5b5366-c954-4f83-8892-adf55ac10f32_removalai_preview.png" alt="Food" class="w-full h-auto object-cover">
+        </div>
+
+        <!-- Column 3 -->
+        <div class="bg-blue-300 p-12 flex flex-col justify-between items-start">
+            <h3 class="text-3xl font-bold text-gray-800 mb-4">Peralatan Lengkap,<br>Perawatan Maksimal</h3>
+            <p class="text-gray-700 mb-6">Tempat Makan, Alat Grooming, Hingga Perlengkapan Harian</p>
+            <img src="asset/cute-cat-png-0.png" alt="Equipment" class="w-full h-auto object-cover">
+        </div>
+    </section>
+
+    <!-- Love Starts from Best Care Section -->
+    <section class="relative bg-gray-900 py-20 px-4 overflow-hidden">
+        <img src="asset/image/cta-img.png" alt="Background" class="absolute inset-0 w-full h-full object-cover opacity-30 z-0">
+        <div class="container mx-auto text-center relative z-10">
+            <h2 class="text-5xl font-bold text-white mb-8">Cinta Dimulai dari<br>Perawatan Terbaik</h2>
+            <button class="bg-white text-gray-900 font-semibold py-3 px-10 rounded-full shadow-lg hover:bg-gray-100 transition duration-300">Pesan Sekarang</button>
+        </div>
+    </section>
+
+     <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-12 px-4 relative overflow-hidden min-h-screen">
+        <div class="container mx-auto mt-24 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 relative z-10">
+            <!-- Column 1: Perawatan Terbaik -->
+            <div>
+                <h3 class="text-xl font-bold mb-2">Perawatan Terbaik<br>untuk Anabul Anda</h3>
+                <p class="text-gray-400 mb-4">The Treats Your Dog Deserve</p>
+                <button class="bg-white text-gray-900 font-semibold py-2 px-6 rounded-full hover:bg-gray-100 transition duration-300">Lihat Selengkapnya</button>
+            </div>
+
+            <!-- Column 2: Karena Hewan Peliharaan -->
+            <div>
+                <h3 class="text-xl font-bold mb-4">Karena Hewan Peliharaan<br>Bukan Hanya Teman,<br>Mereka Adalah Keluarga</h3>
+            </div>
+
+            <!-- Column 3: Navigation -->
+            <div>
+                <h3 class="text-xl font-bold mb-2">MENU</h3>
+                <ul>
+                    <li class="mb-2"><a href="index.html" class="text-gray-400 hover:text-white">Beranda</a></li>
+                    <li class="mb-2"><a href="products.html" class="text-gray-400 hover:text-white">Shop</a></li>
+                    <li class="mb-2"><a href="../TIC TACXEL/game.html" class="text-gray-400 hover:text-white">Games</a></li>
+                    <li class="mb-2"><a href="about-us.html" class="text-gray-400 hover:text-white">Kontak</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4: Social Media -->
+            <div>
+                <h3 class="text-xl font-bold mb-2">SOCIAL MEDIA</h3>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-gray-400 hover:text-white">FB</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">TT</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">IG</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Background cats at the bottom of the footer -->
+        <img src="asset/image/footer-img.png" alt="Cat bottom left" class="absolute bottom-0  w-92 z-0">
+    
+    </footer>
+</body>
+</html>
